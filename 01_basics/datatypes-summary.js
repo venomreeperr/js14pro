@@ -34,4 +34,34 @@ function myFunction = function()
 //>= object
 //infact all non primitive data types typeof output is objectt
 
+//###########################
+
+// stack(primitive),heap(non primitive)
+let myName="rajj"
+let anotherName = "myName"
+anotherName = "rish"
+console.log(myName);
+console.log(anotherName);
+//>=rajj
+//>=rish
+//primitive
+
+let userOne={
+    email:"aaa@gmail.com"
+    upi:"123123"
+}
+
+let userTwo=userOne
+
+userTwo.email="qqq@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+//>=qqq@gmail.com
+//>=qqq@gmail.com
+//thus we can say that the original value changes 
+
+
+
+
+
 
