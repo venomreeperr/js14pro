@@ -27,7 +27,7 @@ console.log(Math.abs(-4));
 console.log(Math.round(4.3));
 //>4
 console.log(Math.random());
-//gives random value within 0-1
+//gives random value withinnn 0-1
 
 
 
