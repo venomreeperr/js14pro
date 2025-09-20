@@ -30,7 +30,7 @@ console.log(obj3);
 //> or do this one
 const obj4={...obj1,...obj2}
 console.log(obj4);
-//>both do the same unction but the later is better
+//>both do the same function but the later is better
 
 console.log(Object.keys(redUser));
 //>gives the keys of the object in an array
